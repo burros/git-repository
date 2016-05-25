@@ -10,6 +10,7 @@ namespace ConsoleApplicationTask1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Factorial 5 = {0}",Math.Factorial(5));
         }
     }
 }
