@@ -16,5 +16,9 @@ namespace ConsoleApplicationTask1
             result = Factorial(i - 1) * i;
             return result;
         }
+        static public double Sqr(double d)
+        {
+            return d * d;
+        }
     }
 }
